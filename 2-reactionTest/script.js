@@ -1,6 +1,10 @@
 "use strict";
 
-let shape = document.getElementById("shape");
+const shape = document.getElementById("shape");
+shape.style.right = `${
+  document.querySelector(".container").clientWidth * 0.5 - 100
+}px`;
+console.log(shape.style.right);
 const randomNumberInterval = function (min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 };
@@ -65,15 +69,19 @@ const radiusFunc = function () {
   }
 };
 const positionFunc = function () {
+  const containerWidth = document.querySelector(".container").clientWidth - 20;
+
   let randomTop = Math.trunc(
     Math.random() * (500 - parseInt(shape.style.height))
   );
 
   let randomRight = Math.trunc(
-    Math.random() * (1000 - parseInt(shape.style.width))
+    Math.random() * (containerWidth - parseInt(shape.style.width))
   );
   shape.style.top = `${randomTop}px`;
   shape.style.right = `${randomRight}px`;
+  console.log(shape.style.width);
+  console.log(randomRight);
 };
 
 //begin timer
