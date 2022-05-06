@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Code Player</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="flex justify-center align-content-top">
+        <h1 class="heading">CodePlayer</h1>
+        <span>
+          <button id="html-btn" class="nav-btn active">HTML</button>
+          <button id="css-btn" class="nav-btn active">CSS</button>
+          <button id="js-btn" class="nav-btn active">JavaScript</button>
+          <button id="output-btn" class="nav-btn active">Output</button>
+        </span>
+      </nav>
+    </header>
+    <main>
+      <section class="grid grid-col-4-fr">
+        <div id="html-div">
+          <textarea
+            id="html"
+            rows="50"
+            placeholder="Type HTML code, then press 'Enter'"
+          ></textarea>
+        </div>
+        <div id="css-div">
+          <textarea
+            id="css"
+            rows="50"
+            placeholder="Type CSS code, then press 'Enter'"
+          ></textarea>
+        </div>
+        <div id="js-div">
+          <textarea
+            id="js"
+            rows="50"
+            placeholder="Type JavaScript code, then press 'Enter'"
+          ></textarea>
+        </div>
+        <div id="output-div">
+          <iframe id="output" class="border-basic full-size"></iframe>
+          <!-- <div id="output" class="border-basic full-size"></div> -->
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
