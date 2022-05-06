@@ -1,0 +1,711 @@
+/* 
+Larger section styling
+*/
+html {
+  padding: 0px;
+  margin: 0px;
+}
+main {
+  width: 1000px;
+  margin: 0px auto;
+}
+.page-width {
+  width: 1000px;
+  margin: 0px auto;
+}
+.width-right-side {
+  width: 300px;
+  padding-left: 20px;
+}
+.clear-float {
+  clear: both;
+}
+.hidden {
+  visibility: hidden;
+}
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+margin, border, padding
+ */
+
+.no-margin {
+  margin: 0px;
+}
+.border-right {
+  border-right: 1px solid lightgray;
+}
+.border-left {
+  border-left: 1px solid lightgray;
+  padding-left: 15px;
+}
+.border-bottom {
+  border-bottom: 1px solid lightgray;
+}
+.border-top {
+  border-top: 1px solid lightgray;
+}
+.border-lightgray {
+  border: 1px solid lightgray;
+}
+
+.border-hover:hover {
+  border-bottom: 4px solid;
+}
+.border-1 {
+  border-bottom: 4px solid #3c5a98;
+}
+.border-2 {
+  border-bottom: 4px solid #47c7fa;
+}
+.border-3 {
+  border-bottom: 4px solid #1167a8;
+}
+.padding-bottom-20 {
+  padding-bottom: 20px;
+}
+.padding-top-25 {
+  padding-top: 25px;
+}
+.padding-15 {
+  padding: 15px;
+}
+.padding-left {
+  padding-left: 15px;
+}
+.btn-padding {
+  padding: 15px 45px;
+}
+.btn-padding-long {
+  padding: 15px 90px;
+}
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+backgrounds
+ */
+.header-banner {
+  background-color: #bb1919;
+}
+.header-site-nav {
+  background-color: white;
+}
+.header-page-nav {
+  background-color: #a91717;
+}
+.background-hover:hover {
+  background-color: black;
+}
+.background-white {
+  background-color: white;
+}
+.background-lightgray {
+  background-color: #f7f7f7;
+}
+.footer-background-1 {
+  background-color: #2f2f2f;
+}
+.footer-background-2 {
+  background-image: url(http://ichef.bbci.co.uk/images/ic/raw/p03fv201.png);
+  background-color: #4c4c4c;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.footer-background-3 {
+  background-color: #4c4c4c;
+}
+
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+all things font
+ */
+.bold {
+  font-weight: bold;
+}
+.black {
+  color: black;
+}
+.white {
+  color: white;
+}
+.tech-link-color {
+  color: rgb(180, 4, 4);
+}
+.font-size-13 {
+  font-size: 13px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+h1:hover,
+h2:hover,
+h3:hover,
+.hover-blue:hover,
+.tech-link-color:hover {
+  color: rgba(17, 103, 168, 0.947);
+}
+.row:hover .column {
+  color: rgba(17, 103, 168, 0.947);
+}
+p,
+span {
+  font-size: 14px;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  color: gray;
+}
+ul {
+  font-size: 14px;
+  font-family: "Arial Narrow", Arial, sans-serif;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(100, 100, 100);
+  font-size: 30px;
+}
+h2 {
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+.section-header {
+  font-size: 25px;
+  font-weight: lighter;
+}
+.page-title {
+  width: fit-content;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-weight: lighter;
+  color: rgb(87, 87, 87);
+  font-size: 20px;
+  border-bottom: 3px solid #a91717;
+}
+h3 {
+  font-family: "Arial Narrow", Arial, sans-serif;
+
+  font-size: 18px;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+h5 {
+  margin: 2px 0px;
+}
+.sub-sec-title {
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+icons and images
+ */
+.icons {
+  width: 15px;
+  height: 15px;
+}
+.icons-2 {
+  width: 30px;
+  height: 30px;
+}
+.vid-img {
+  width: 110px;
+}
+.news-img {
+  width: 216px;
+}
+.sub-news-img {
+  width: 150px;
+}
+.sub-news-img-2 {
+  width: 180;
+}
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+positioning
+ */
+.container {
+  display: table;
+}
+.row {
+  display: table-row;
+}
+.column {
+  display: table-cell;
+  text-align: left;
+}
+.v-align-middle {
+  vertical-align: middle;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+.justify-space-between {
+  justify-content: space-between;
+}
+.justify-space-around {
+  justify-content: space-around;
+}
+.justify-space-evenly {
+  justify-content: space-evenly;
+}
+.position-relative {
+  position: relative;
+}
+.position-absolute-bottom-left {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+.line-height-40 {
+  line-height: 40px;
+}
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+refactor
+ */
+.most-pop-style {
+  /* border: 1px solid black; */
+  padding: 10px 90px 10px 25px;
+  margin-top: 50px;
+}
+.day-tag {
+  color: #bb1919;
+  font-weight: bold;
+  width: 40px;
+  padding-right: 10px;
+}
+.most-pop-links {
+  padding: 10px 10px 10px 10px;
+}
+
+.newsbeat {
+  background-color: rgb(57, 56, 56);
+  padding: 3px;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.width-25per {
+  width: 20%;
+}
+
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+HEADERS
+ */
+.btn {
+  background-color: transparent;
+  border: transparent;
+  color: white;
+}
+.btn-large-text {
+  font-size: larger;
+}
+
+.nav-site {
+  width: 75px;
+  font-weight: bold;
+  color: black;
+  vertical-align: middle;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+#notification-link {
+  visibility: hidden;
+}
+.empty-box {
+  background-color: white;
+  border-right: 1px solid lightgray;
+}
+#sign-in {
+  padding: 0px 30px;
+  margin: 0px;
+}
+#search {
+  border-left: 1px solid black;
+  padding: 0px 10px;
+  margin: 0px;
+}
+#bbc-logo {
+  width: 75px;
+  vertical-align: center;
+}
+.banner {
+  width: 1000px;
+  margin: 0 auto;
+}
+#news-logo {
+  height: 60px;
+}
+#bbc-news {
+  height: 60px;
+}
+#nav-box-page {
+  line-height: 40px;
+}
+.nav-page {
+  border-left: 1px solid #bb4545;
+  padding: 5px 10px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  vertical-align: middle;
+}
+
+/* 
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+mini lists
+ */
+.links-list {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.links-list-item {
+  list-style: none;
+  padding: 5px;
+}
+.list-item-last-child {
+  border-left: 1px solid lightgray;
+}
+
+.info-list {
+  line-height: 20px;
+  display: block;
+}
+
+.mini-info-list {
+  list-style: none;
+  vertical-align: baseline;
+  padding: 0px 5px;
+  margin: 0px;
+}
+.mini-info-list-item {
+  list-style: none;
+  vertical-align: baseline;
+  display: inline-block;
+  padding: 0px 5px;
+}
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Section
+ASDA grid set up
+ */
+#asda-section {
+  width: 600px;
+  display: grid;
+  row-gap: 10px;
+  column-gap: 20px;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 50px auto 40px;
+  grid-template-areas:
+    "h h h h h h h h h h"
+    "c c c c i i i i i i"
+    "f f f f i i i i i i";
+}
+.grid-header {
+  grid-area: h;
+}
+.grid-content {
+  grid-area: c;
+}
+.grid-image {
+  grid-area: i;
+}
+.grid-footer {
+  grid-area: f;
+}
+#asda-img {
+  height: 230px;
+}
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Section
+news stories TOP and BOTTOM grid set up
+ */
+.news-story-top {
+  width: 650px;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+
+  display: grid;
+  grid-gap: 10px;
+  padding: 10px;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "a a a b b b c c"
+    "a a a b b b d d"
+    "a a a b b b e e";
+}
+.news-story-bottom {
+  width: 650px;
+  display: grid;
+  column-gap: 15px;
+  row-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "a b"
+    "c d"
+    "e f";
+}
+.news-story {
+  padding: 5px;
+}
+.grid-a {
+  grid-area: a;
+}
+.grid-b {
+  grid-area: b;
+}
+.grid-c {
+  grid-area: c;
+}
+.grid-d {
+  grid-area: d;
+}
+.grid-e {
+  grid-area: e;
+}
+.grid-f {
+  grid-area: f;
+}
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Section
+watch-listen grid set up
+ */
+.watch-listen-parent {
+  display: grid;
+  row-gap: 15px;
+  grid-template-columns: 110px 175px;
+  grid-template-rows: repeat(8, auto);
+}
+.grid-elem-1 {
+  grid-column: span 2;
+  grid-row: 2/3;
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+}
+.grid-elem-2 {
+  grid-column: span 2;
+  grid-row: 3/4;
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+}
+.grid-elem-3 {
+  grid-column: span 2;
+  grid-row: 4/5;
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+}
+.grid-elem-4 {
+  grid-column: span 2;
+  grid-row: 5/6;
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+}
+.grid-elem-5 {
+  grid-column: span 2;
+  grid-row: 6/7;
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+}
+.grid-elem-6 {
+  grid-column: span 2;
+  grid-row: 7/8;
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+}
+.vid-header {
+  grid-column: span 2;
+  grid-row: 1/2;
+  margin: 0px;
+}
+
+.grid-vid {
+  grid-column: 1/2;
+}
+.grid-elem-des {
+  grid-column: 2/3;
+}
+.grid-elem-7 {
+  grid-column: span 2;
+  grid-row: 8/9;
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: subgrid;
+  grid-template-rows: repeat(4, 50px);
+}
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Section
+Other news grid set up
+ */
+.other-news {
+  width: 650px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(7, auto);
+}
+.other-news-header {
+  grid-column: 1 / all;
+  grid-row: span 1;
+}
+.other-news-1 {
+  width: inherit;
+  grid-row: 1/3;
+  display: grid;
+  column-gap: 10px;
+
+  grid-template-rows: subgrid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.other-news-tech-1 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.other-news-tech-2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.other-news-tech-3 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.other-news-tech-4 {
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+.other-news-2 {
+  width: inherit;
+  column-gap: 10px;
+  grid-row: 3/5;
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.other-news-also-1 {
+  grid-row: span 1;
+  grid-column: 1/3;
+  column-gap: 5px;
+  display: grid;
+  grid-template-columns: 1/3;
+}
+.other-news-also-1-1 {
+  grid-row: inherit;
+  grid-column: 1/2;
+}
+.other-news-also-1-2 {
+  grid-row: inherit;
+  grid-column: 2/3;
+}
+.other-news-also-2 {
+  grid-row: span 1;
+  grid-column: 3/5;
+  column-gap: 5px;
+  display: grid;
+  grid-template-columns: 3/5;
+}
+.other-news-also-2-1 {
+  grid-row: inherit;
+  grid-column: 1/2;
+}
+.other-news-also-2-2 {
+  grid-row: inherit;
+  grid-column: 2/3;
+}
+.other-news-3 {
+  width: inherit;
+  column-gap: 10px;
+  row-gap: 15px;
+  grid-row: 5/8;
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.other-news-features-1 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.other-news-features-2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.other-news-features-3 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.other-news-features-4 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.other-news-features-5 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.other-news-features-6 {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
